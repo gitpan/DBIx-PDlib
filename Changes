@@ -1,5 +1,13 @@
 Revision history for Perl extension DBIx::PDlib.
 
+2004-05-09 20:36  jmiller
+
+	* Changes: Tagging release and distributing
+
+2004-03-15 08:46  sjackson
+
+	* PDlib.pm: added a line under the if for oracle so that it will
+	add the oracle home dir.
 
 2004-02-15 17:55  jmiller
 

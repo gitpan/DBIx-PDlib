@@ -8,9 +8,9 @@ use Carp;
 require Exporter;
 use vars qw($VERSION);
 
-$VERSION = sprintf "%d.%03d", q$Revision: 1.7 $ =~ /(\d+)/g;
-# $Date: 2004/02/15 22:52:36 $
-# $Author: jmiller $
+$VERSION = sprintf "%d.%03d", q$Revision: 1.8 $ =~ /(\d+)/g;
+# $Date: 2004/03/15 13:46:14 $
+# $Author: sjackson $
 
 #############################################
 # perl module to make sql operations easier #
@@ -107,6 +107,7 @@ sub ___drivers
 	# more...
 	if ($driver eq 'Oracle') {
 		$$config{'sid'} ||= delete($$config{'dbname'});
+		$ENV{ORACLE_HOME} = $$config{'home'} unless (-d $ENV{ORACLE_HOME});
 	}
 
 	my @keys;
