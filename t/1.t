@@ -41,7 +41,7 @@ eval {
 is($@, '', 'running import');
 
 SKIP: {
-	skip("Can't do database tests if you don't specify a driver",26)
+	skip("Can't do database tests if you don't specify a driver",15)
 		unless $$conn{'driver'};
 
 	eval {

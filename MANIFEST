@@ -5,3 +5,4 @@ PDlib.pm
 README
 t/1.t
 t/dbia.config
+META.yml                                 Module meta-data (added by MakeMaker)

@@ -1,5 +1,9 @@
 Revision history for Perl extension DBIx::PDlib.
 
+2008-01-27 23:06  jmiller
+
+	* Changes: Fixed number of tests in test file.
+
 2004-05-09 20:36  jmiller
 
 	* Changes: Tagging release and distributing

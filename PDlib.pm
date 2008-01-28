@@ -8,7 +8,7 @@ use Carp;
 require Exporter;
 use vars qw($VERSION);
 
-$VERSION = sprintf "%d.%03d", q$Revision: 1.8 $ =~ /(\d+)/g;
+$VERSION = sprintf "%d.%03d", q$Revision: 1.9 $ =~ /(\d+)/g;
 # $Date: 2004/03/15 13:46:14 $
 # $Author: sjackson $
 
